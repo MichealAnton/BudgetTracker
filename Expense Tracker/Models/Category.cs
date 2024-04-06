@@ -18,6 +18,7 @@ namespace Expense_Tracker.Models
         //  [Column(TypeName = "nvarchar(10)")]
         public string Type { get; set; }
 
+        public double budget { get; set; }
       //  [NotMapped]
         
     }
