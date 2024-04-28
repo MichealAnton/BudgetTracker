@@ -117,6 +117,10 @@ namespace Budget_Tracker.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("User_ID"));
 
+                    b.Property<string>("ConfirmPassword")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("User_Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
