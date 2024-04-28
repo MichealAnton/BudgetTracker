@@ -33,7 +33,7 @@ namespace Budget_Tracker.Migrations
                 {
                     User_ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    User_Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    User_Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     User_Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     User_Passowrd = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ConfirmPassword = table.Column<string>(type: "nvarchar(max)", nullable: false),

@@ -9,11 +9,15 @@ namespace Budget_Tracker.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int User_ID { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Please enter a username.")]
+        [StringLength(50, MinimumLength = 3, ErrorMessage = "Username must be between 3 and 50 characters.")]
         public string User_Name { get; set;}
-        [Required]
+        [Required(ErrorMessage = "Please enter an email.")]
+        [EmailAddress(ErrorMessage = "Invalid email address.")]
         public string User_Email { get; set;}
-        [Required]
+        [Required(ErrorMessage = "Please enter a password.")]
+        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,}$",
+        ErrorMessage = "Password must contain at least one lowercase letter, one uppercase letter, one digit, and be at least 6 characters long.")]
         [DataType(DataType.Password)]
         public string User_Passowrd { get;set;}
         [Required]
@@ -21,7 +25,7 @@ namespace Budget_Tracker.Models
         [Compare("User_Passowrd", ErrorMessage = "not match")]
         public string ConfirmPassword { get; set; }
         [Display(Name = "Image")]
-        [DefaultValue("E:\\Budget Tracker\\Budget Tracker\\wwwroot\\images\\ProfilePicture.jpeg")]
+        [DefaultValue("ProfilePicture.jpeg")]
         public string User_Pic { get; set; }
 
     }

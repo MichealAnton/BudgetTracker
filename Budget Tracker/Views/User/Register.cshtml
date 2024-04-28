@@ -3,6 +3,10 @@
 *@
 @{
 }
+@if(ViewBag.Message != null)
+{
+    <span style="color:orangered">@Html.Raw(ViewBag.Message)</span>
+}
 @model User
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +22,7 @@
 <body>
     <div class="container">
         <h1>Sign Up</h1>
-        <form asp-controller="User" asp-action="Register" method="post">
+        <form asp-controller="User" asp-action="Register" method="post" enctype="multipart/form-data">
             <input type="hidden" asp-for="User_ID" />
             <div class="form-group">
                 <label asp-for="User_Name">User Name</label>
@@ -28,20 +32,23 @@
             <div class="form-group">
                 <label asp-for="User_Email">Email address</label>
                 <input asp-for="User_Email" type="email" class="form-control" id="User_Email" aria-describedby="emailHelp" name="User_Email">
+                <span asp-validation-for="User_Email" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="User_Passowrd">Password</label>
                 <input asp-for="User_Passowrd" type="password" class="form-control" id="User_Passowrd" name="User_Passowrd">
+                <span asp-validation-for="User_Passowrd" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="ConfirmPassword">Confirm Password</label>
                 <input asp-for="ConfirmPassword" type="password" class="form-control" id="ConfirmPassword" name="ConfirmPassword">
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label for="User_Pic">Profile Picture</label>
-                <input type="file" class="form-control-file" id="User_Pic" name="User_Pic">
+                <label asp-for="User_Pic">Profile Picture</label>
+                <input asp-for="User_Pic" type="file" class="form-control-file" id="User_Pic" name="User_Pic_File">
+                <span asp-validation-for="User_Pic" class="text-danger"></span>
             </div>
-
             <button type="submit" class="btn btn-primary">Sign Up</button>
         </form>
     </div>

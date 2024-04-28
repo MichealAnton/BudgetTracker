@@ -127,7 +127,8 @@ namespace Budget_Tracker.Migrations
 
                     b.Property<string>("User_Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("User_Passowrd")
                         .IsRequired()
