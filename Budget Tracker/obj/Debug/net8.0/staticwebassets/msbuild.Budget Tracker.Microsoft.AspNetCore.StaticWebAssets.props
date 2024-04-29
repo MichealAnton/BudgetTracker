@@ -64,12 +64,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\1092d0a8-f8f6-42f6-9c97-7e02e38a50b1_DFA 1.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\cbe76d77-ca9b-4606-921a-a6083ed24600_My_Picture.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\6e46cf14-5ea1-4e44-80eb-e802ce23563f_one.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Budget Tracker</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Budget Tracker</BasePath>
-      <RelativePath>images/cbe76d77-ca9b-4606-921a-a6083ed24600_My_Picture.jpg</RelativePath>
+      <RelativePath>images/6e46cf14-5ea1-4e44-80eb-e802ce23563f_one.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -78,14 +78,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\cbe76d77-ca9b-4606-921a-a6083ed24600_My_Picture.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\6e46cf14-5ea1-4e44-80eb-e802ce23563f_one.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fbfbbd51-c4da-469f-b5c7-2dd22b600b8e_My_Picture.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\7c25497a-33d5-4c98-bee5-8c153f323444_Screenshot 2023-12-27 140845.png))">
       <SourceType>Package</SourceType>
       <SourceId>Budget Tracker</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Budget Tracker</BasePath>
-      <RelativePath>images/fbfbbd51-c4da-469f-b5c7-2dd22b600b8e_My_Picture.jpg</RelativePath>
+      <RelativePath>images/7c25497a-33d5-4c98-bee5-8c153f323444_Screenshot 2023-12-27 140845.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -94,7 +94,23 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fbfbbd51-c4da-469f-b5c7-2dd22b600b8e_My_Picture.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\7c25497a-33d5-4c98-bee5-8c153f323444_Screenshot 2023-12-27 140845.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f0542232-391a-4aee-8b90-bfb973ea67d6_DFA 1.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Budget Tracker</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Budget Tracker</BasePath>
+      <RelativePath>images/f0542232-391a-4aee-8b90-bfb973ea67d6_DFA 1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f0542232-391a-4aee-8b90-bfb973ea67d6_DFA 1.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\ProfilePicture.jpeg))">
       <SourceType>Package</SourceType>

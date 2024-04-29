@@ -17,6 +17,11 @@ namespace Budget_Tracker.Controllers
         {
             return View();
         }
+        public IActionResult Index2(string userPic)
+        {
+            ViewBag.UserPic = userPic;
+            return View();
+        }
 
         public IActionResult Privacy()
         {

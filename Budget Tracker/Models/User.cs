@@ -16,8 +16,8 @@ namespace Budget_Tracker.Models
         [EmailAddress(ErrorMessage = "Invalid email address.")]
         public string User_Email { get; set;}
         [Required(ErrorMessage = "Please enter a password.")]
-        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,}$",
-        ErrorMessage = "Password must contain at least one lowercase letter, one uppercase letter, one digit, and be at least 6 characters long.")]
+        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+{}\[\]:;<>,.?/\\~-]).{6,}$",
+        ErrorMessage = "Password must contain at least one lowercase letter, one uppercase letter, one digit, one special Char, and be at least 6 characters long.")]
         [DataType(DataType.Password)]
         public string User_Passowrd { get;set;}
         [Required]

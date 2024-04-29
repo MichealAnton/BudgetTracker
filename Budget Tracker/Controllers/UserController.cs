@@ -28,6 +28,7 @@ namespace Budget_Tracker.Controllers
         public IActionResult Register(User user , IFormFile User_Pic_File)
         {
             ModelState.Remove("User_Pic");
+            ModelState.Remove("User_Pic_File");
             if (ModelState.IsValid)
             {
                 // Hash the password using bcrypt
@@ -48,7 +49,7 @@ namespace Budget_Tracker.Controllers
                     }
 
                     // Set the User_Pic property in the model to the file path or other identifier
-                    user.User_Pic = "/images/" + uniqueFileName;
+                    user.User_Pic = filePath;
                 }
                 else
                 {
@@ -78,30 +79,28 @@ namespace Budget_Tracker.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(User user)
+        public IActionResult Login(CheckLogin user )
         {
             if (ModelState.IsValid)
             {
-                var authenticatedUser = _context.Usres.FirstOrDefault(u => u.User_Email == user.User_Email && u.User_Passowrd == user.User_Passowrd);
+                var authenticatedUser = _context.Usres.FirstOrDefault(u => u.User_Email == user.Email);
                 if (authenticatedUser != null)
                 {
                     // Verify the hashed password
-                    if (BCrypt.Net.BCrypt.Verify(user.User_Passowrd, authenticatedUser.User_Passowrd))
+                    if (BCrypt.Net.BCrypt.Verify(user.Password, authenticatedUser.User_Passowrd))
                     {
                         // Passwords match, user authenticated, redirect to dashboard or home page
-                        return RedirectToAction("Dashboard", "Home");
+                        return RedirectToAction("Index2", "Home" ,new {urPic = authenticatedUser.User_Pic});
                     }
                 }
-                else
-                {
-                    // User not found or invalid credentials, add an error message
-                    ModelState.AddModelError(string.Empty, "Invalid email or password.");
-                    return View(user);
-                }
+
+                // User not found or invalid credentials, add an error message
+                ModelState.AddModelError(string.Empty, "Invalid email or password.");
             }
             // ModelState is invalid, return the view with the invalid model
             return View(user);
         }
+
     }
 
 }

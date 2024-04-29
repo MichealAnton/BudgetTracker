@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/Mu4nwocynpkTXHbNQqpX38PcYD9MZolXNNJmrmuReg=",
+  "Hash": "o9tWvJQIvCG0socMyn4JNHPUl0ukjkFMny49ar+uAow=",
   "Source": "Budget Tracker",
   "BasePath": "_content/Budget Tracker",
   "Mode": "Default",
@@ -112,12 +112,12 @@
       "OriginalItemSpec": "wwwroot\\images\\1092d0a8-f8f6-42f6-9c97-7e02e38a50b1_DFA 1.png"
     },
     {
-      "Identity": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\images\\cbe76d77-ca9b-4606-921a-a6083ed24600_My_Picture.jpg",
+      "Identity": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\images\\6e46cf14-5ea1-4e44-80eb-e802ce23563f_one.jpg",
       "SourceId": "Budget Tracker",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\",
       "BasePath": "_content/Budget Tracker",
-      "RelativePath": "images/cbe76d77-ca9b-4606-921a-a6083ed24600_My_Picture.jpg",
+      "RelativePath": "images/6e46cf14-5ea1-4e44-80eb-e802ce23563f_one.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +128,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cbe76d77-ca9b-4606-921a-a6083ed24600_My_Picture.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\6e46cf14-5ea1-4e44-80eb-e802ce23563f_one.jpg"
     },
     {
-      "Identity": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\images\\fbfbbd51-c4da-469f-b5c7-2dd22b600b8e_My_Picture.jpg",
+      "Identity": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\images\\7c25497a-33d5-4c98-bee5-8c153f323444_Screenshot 2023-12-27 140845.png",
       "SourceId": "Budget Tracker",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\",
       "BasePath": "_content/Budget Tracker",
-      "RelativePath": "images/fbfbbd51-c4da-469f-b5c7-2dd22b600b8e_My_Picture.jpg",
+      "RelativePath": "images/7c25497a-33d5-4c98-bee5-8c153f323444_Screenshot 2023-12-27 140845.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +147,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\fbfbbd51-c4da-469f-b5c7-2dd22b600b8e_My_Picture.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\7c25497a-33d5-4c98-bee5-8c153f323444_Screenshot 2023-12-27 140845.png"
+    },
+    {
+      "Identity": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\images\\f0542232-391a-4aee-8b90-bfb973ea67d6_DFA 1.png",
+      "SourceId": "Budget Tracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\",
+      "BasePath": "_content/Budget Tracker",
+      "RelativePath": "images/f0542232-391a-4aee-8b90-bfb973ea67d6_DFA 1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\f0542232-391a-4aee-8b90-bfb973ea67d6_DFA 1.png"
     },
     {
       "Identity": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\images\\ProfilePicture.jpeg",
