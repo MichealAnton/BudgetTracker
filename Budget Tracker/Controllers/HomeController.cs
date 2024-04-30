@@ -17,9 +17,9 @@ namespace Budget_Tracker.Controllers
         {
             return View();
         }
-        public IActionResult Index2(string userPic)
+        public IActionResult Index2()
         {
-            ViewBag.UserPic = userPic;
+            ViewBag.UserPic = TempData["Pic"];
             return View();
         }
 

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Budget_Tracker.Migrations
 {
     [DbContext(typeof(ApplicationDBcontext))]
-    [Migration("20240429032159_Init")]
+    [Migration("20240430011845_Init")]
     partial class Init
     {
         /// <inheritdoc />

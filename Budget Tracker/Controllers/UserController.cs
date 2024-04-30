@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using BCrypt.Net;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace Budget_Tracker.Controllers
 {
@@ -53,8 +54,9 @@ namespace Budget_Tracker.Controllers
                 }
                 else
                 {
+                    string uploadsFolder = Path.Combine(_environment.WebRootPath, "images") + "\\ProfilePicture.jpeg";
                     // If no picture is uploaded, set a default profile picture path
-                    user.User_Pic = "/images/ProfilePicture.jpeg";
+                    user.User_Pic = uploadsFolder;
                 }
                 if (user.User_Pic.EndsWith(".jpg") || user.User_Pic.EndsWith(".jpeg") || user.User_Pic.EndsWith(".png"))
                 {
@@ -63,6 +65,16 @@ namespace Budget_Tracker.Controllers
                 else
                 {
                     ModelState.AddModelError("User_Pic", "Please upload a valid image file.");
+                    return View(user);
+                }
+                var val_email = _context.Usres.FirstOrDefault(a => a.User_Email == user.User_Email);
+                if(val_email == null)
+                {
+                    
+                }
+                else
+                {
+                    ModelState.AddModelError("User_Email", "This Email is aleardy excisted");
                     return View(user);
                 }
                 _context.Usres.Add(user);
@@ -89,8 +101,9 @@ namespace Budget_Tracker.Controllers
                     // Verify the hashed password
                     if (BCrypt.Net.BCrypt.Verify(user.Password, authenticatedUser.User_Passowrd))
                     {
+                        TempData["Pic"] = authenticatedUser.User_Pic;
                         // Passwords match, user authenticated, redirect to dashboard or home page
-                        return RedirectToAction("Index2", "Home" ,new {urPic = authenticatedUser.User_Pic});
+                        return RedirectToAction("Index2", "Home");
                     }
                 }
 
