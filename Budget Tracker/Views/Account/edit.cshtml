@@ -1,0 +1,49 @@
+﻿@model Budget_Tracker.Models.Account
+
+@{
+    ViewData["Title"] = "edit";
+}
+
+<h1>edit</h1>
+
+<h4>Account</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Account_Id" />
+            <div class="form-group">
+                <label asp-for="Account_Name" class="control-label"></label>
+                <input asp-for="Account_Name" class="form-control" />
+                <span asp-validation-for="Account_Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Account_Notes" class="control-label"></label>
+                <input asp-for="Account_Notes" class="form-control" />
+                <span asp-validation-for="Account_Notes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Initial_Budget" class="control-label"></label>
+                <input asp-for="Initial_Budget" class="form-control" />
+                <span asp-validation-for="Initial_Budget" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="User_Id" class="control-label"></label>
+                <select asp-for="User_Id" class="form-control" asp-items="ViewBag.User_Id"></select>
+                <span asp-validation-for="User_Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

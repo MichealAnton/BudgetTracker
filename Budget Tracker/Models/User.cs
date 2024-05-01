@@ -27,6 +27,6 @@ namespace Budget_Tracker.Models
         [Display(Name = "Image")]
         [DefaultValue("ProfilePicture.jpeg")]
         public string User_Pic { get; set; }
-
+        public ICollection<Account> Accounts { get; set; } = new HashSet<Account>();
     }
 }

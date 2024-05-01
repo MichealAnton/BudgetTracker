@@ -20,3 +20,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+.widget {
+    border-radius: 1rem;
+    background-color: #1a222b;
+    color: #fff;
+}

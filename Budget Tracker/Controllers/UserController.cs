@@ -26,7 +26,7 @@ namespace Budget_Tracker.Controllers
         }
 
         [HttpPost]
-        public IActionResult Register(User user , IFormFile User_Pic_File)
+        public async Task<IActionResult> Register(User user , IFormFile User_Pic_File)
         {
             ModelState.Remove("User_Pic");
             ModelState.Remove("User_Pic_File");
@@ -46,11 +46,13 @@ namespace Budget_Tracker.Controllers
                     string filePath = Path.Combine(uploadsFolder, uniqueFileName);
                     using (var fileStream = new FileStream(filePath, FileMode.Create))
                     {
-                        User_Pic_File.CopyTo(fileStream);
+                        await User_Pic_File.CopyToAsync(fileStream);
+                        ViewBag.Message = string.Format("{0}", User_Pic_File.FileName.ToString());
+                        //User_Pic_File.CopyTo(fileStream);
                     }
 
                     // Set the User_Pic property in the model to the file path or other identifier
-                    user.User_Pic = filePath;
+                    user.User_Pic = ViewBag.Message;
                 }
                 else
                 {
@@ -102,6 +104,7 @@ namespace Budget_Tracker.Controllers
                     if (BCrypt.Net.BCrypt.Verify(user.Password, authenticatedUser.User_Passowrd))
                     {
                         TempData["Pic"] = authenticatedUser.User_Pic;
+                        TempData["UserId"] = authenticatedUser.User_ID;
                         // Passwords match, user authenticated, redirect to dashboard or home page
                         return RedirectToAction("Index2", "Home");
                     }
@@ -113,6 +116,72 @@ namespace Budget_Tracker.Controllers
             // ModelState is invalid, return the view with the invalid model
             return View(user);
         }
+        public IActionResult Settings()
+        {
+            IEnumerable<User> Users
+                = _context.Usres.ToList();
+            return View(Users);
+        }
+        public IActionResult Details(int id)
+        {
+
+            var usr = _context.Usres.Where(x => x.User_ID == id).FirstOrDefault();
+            if (usr == null)
+            {
+                return new NotFoundResult();
+            }
+            return View(usr);
+        }
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var usr =_context.Usres.Where(x => x.User_ID == id).FirstOrDefault();
+            if (usr == null)
+            {
+                return new NotFoundResult();
+            }
+            return View(usr);
+
+        }
+        [HttpPost]
+        public IActionResult Delete(User usr)
+        {
+            //var ctr = db.Categories.Where(x => x.Category_Id == id).FirstOrDefault();
+            _context.Usres.Remove(usr);
+            _context.SaveChanges();
+            TempData["AlertMessage"] = "User account Deleted Successfully...!";
+            return RedirectToAction("Settings");
+
+        }
+        public IActionResult Edit(int id)
+        {
+            var usr = _context.Usres.Where(x => x.User_ID == id).FirstOrDefault();
+            if (usr == null)
+            {
+                return new NotFoundResult();
+            }
+            //if (!ctr.Category_Name.Any(char.IsLetter))
+            //{
+            //    ModelState.AddModelError("Category_Name", "Name must be at least 3 letters ");
+
+            //}
+            return View(usr);
+        }
+        [HttpPost]
+        public IActionResult Edit(User usr)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Usres.Update(usr);
+                _context.SaveChanges();
+                //return RedirectToAction("Index");
+                TempData["AlertMessage"] = "User account Updated Successfully...!";
+                return RedirectToAction("Settings");
+            }
+            return View(usr);
+
+        }
+
 
     }
 

@@ -3,9 +3,6 @@
   "WorkspaceRootPath": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_EUSS4F3/Tracker/True/SqlTable/dbo.Usres.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|d:\\3rd year\\software\\project\\budgettracker\\budget tracker\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|solutionrelative:budget tracker\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -14,24 +11,8 @@
       "RelativeMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|solutionrelative:budget tracker\\views\\home\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|d:\\3rd year\\software\\project\\budgettracker\\budget tracker\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|solutionrelative:budget tracker\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|d:\\3rd year\\software\\project\\budgettracker\\budget tracker\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|solutionrelative:budget tracker\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|d:\\3rd year\\software\\project\\budgettracker\\budget tracker\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|solutionrelative:budget tracker\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|d:\\3rd year\\software\\project\\budgettracker\\budget tracker\\models\\checklogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|solutionrelative:budget tracker\\models\\checklogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|d:\\3rd year\\software\\project\\budgettracker\\budget tracker\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|solutionrelative:budget tracker\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|d:\\3rd year\\software\\project\\budgettracker\\budget tracker\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58F97253-FE72-4C72-8904-DE822DF896E8}|Budget Tracker\\Budget Tracker.csproj|solutionrelative:budget tracker\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,97 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Budget Tracker\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Budget Tracker\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:45:11.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index2.cshtml",
               "DocumentMoniker": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Views\\Home\\Index2.cshtml",
               "RelativeDocumentMoniker": "Budget Tracker\\Views\\Home\\Index2.cshtml",
               "ToolTip": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Views\\Home\\Index2.cshtml",
               "RelativeToolTip": "Budget Tracker\\Views\\Home\\Index2.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACgAAAAtAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAADwvygAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T04:21:00.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Budget Tracker\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Budget Tracker\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T04:17:32.162Z",
+              "WhenOpened": "2024-04-30T10:10:42.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbo.Usres [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_EUSS4F3/Tracker/True/SqlTable/dbo.Usres.sql",
-              "ToolTip": "dbo.Usres [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-29T03:39:59.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CheckLogin.cs",
-              "DocumentMoniker": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Models\\CheckLogin.cs",
-              "RelativeDocumentMoniker": "Budget Tracker\\Models\\CheckLogin.cs",
-              "ToolTip": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Models\\CheckLogin.cs",
-              "RelativeToolTip": "Budget Tracker\\Models\\CheckLogin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T02:45:27.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Views\\User\\Register.cshtml",
-              "RelativeDocumentMoniker": "Budget Tracker\\Views\\User\\Register.cshtml",
-              "ToolTip": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Views\\User\\Register.cshtml",
-              "RelativeToolTip": "Budget Tracker\\Views\\User\\Register.cshtml",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAkAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T01:54:24.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "Budget Tracker\\Views\\User\\Login.cshtml",
-              "ToolTip": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "Budget Tracker\\Views\\User\\Login.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-29T01:53:45.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Budget Tracker\\Models\\User.cs",
-              "ToolTip": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Models\\User.cs",
-              "RelativeToolTip": "Budget Tracker\\Models\\User.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAACSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T00:00:12.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Budget Tracker\\Controllers\\UserController.cs",
               "ToolTip": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\Controllers\\UserController.cs",
               "RelativeToolTip": "Budget Tracker\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAIA5wB0AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T23:50:51.764Z",
+              "WhenOpened": "2024-04-30T10:04:50.345Z",
               "EditorCaption": ""
             }
           ]

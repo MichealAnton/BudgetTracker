@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f+pJn08kIGxCZLFlmjnPXYqcnX5746VKWekN4y376Vo=",
+  "Hash": "HG0rd365d5p4Q6JXGt+MipgJTtAp9ex6hfDL+KT8hU4=",
   "Source": "Budget Tracker",
   "BasePath": "_content/Budget Tracker",
   "Mode": "Default",
@@ -131,6 +131,25 @@
       "OriginalItemSpec": "wwwroot\\images\\1ed88bda-7219-4a87-b6a4-e21f275a73f8_Screenshot 2023-12-27 140845.png"
     },
     {
+      "Identity": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\images\\5778f37b-814d-418b-8557-dbcd0ae7234f_6e46cf14-5ea1-4e44-80eb-e802ce23563f_one.jpg",
+      "SourceId": "Budget Tracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\",
+      "BasePath": "_content/Budget Tracker",
+      "RelativePath": "images/5778f37b-814d-418b-8557-dbcd0ae7234f_6e46cf14-5ea1-4e44-80eb-e802ce23563f_one.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5778f37b-814d-418b-8557-dbcd0ae7234f_6e46cf14-5ea1-4e44-80eb-e802ce23563f_one.jpg"
+    },
+    {
       "Identity": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\images\\6e46cf14-5ea1-4e44-80eb-e802ce23563f_one.jpg",
       "SourceId": "Budget Tracker",
       "SourceType": "Discovered",
@@ -226,6 +245,25 @@
       "OriginalItemSpec": "wwwroot\\images\\7c25497a-33d5-4c98-bee5-8c153f323444_Screenshot 2023-12-27 140845.png"
     },
     {
+      "Identity": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\images\\adf6b493-198c-471e-8e34-ed6ea4450e12_DFA 1.png",
+      "SourceId": "Budget Tracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\",
+      "BasePath": "_content/Budget Tracker",
+      "RelativePath": "images/adf6b493-198c-471e-8e34-ed6ea4450e12_DFA 1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\adf6b493-198c-471e-8e34-ed6ea4450e12_DFA 1.png"
+    },
+    {
       "Identity": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\images\\f0542232-391a-4aee-8b90-bfb973ea67d6_DFA 1.png",
       "SourceId": "Budget Tracker",
       "SourceType": "Discovered",
@@ -243,6 +281,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\f0542232-391a-4aee-8b90-bfb973ea67d6_DFA 1.png"
+    },
+    {
+      "Identity": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\images\\feb7e2b9-fbe9-4496-bc87-cc85bab9bf50_DFA 1.png",
+      "SourceId": "Budget Tracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\",
+      "BasePath": "_content/Budget Tracker",
+      "RelativePath": "images/feb7e2b9-fbe9-4496-bc87-cc85bab9bf50_DFA 1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\feb7e2b9-fbe9-4496-bc87-cc85bab9bf50_DFA 1.png"
     },
     {
       "Identity": "D:\\3rd Year\\Software\\Project\\BudgetTracker\\Budget Tracker\\wwwroot\\images\\ProfilePicture.jpeg",

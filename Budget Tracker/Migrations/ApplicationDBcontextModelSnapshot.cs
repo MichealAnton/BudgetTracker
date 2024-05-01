@@ -146,7 +146,7 @@ namespace Budget_Tracker.Migrations
             modelBuilder.Entity("Budget_Tracker.Models.Account", b =>
                 {
                     b.HasOne("Budget_Tracker.Models.User", "User")
-                        .WithMany()
+                        .WithMany("Accounts")
                         .HasForeignKey("User_Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -171,6 +171,11 @@ namespace Budget_Tracker.Migrations
                     b.Navigation("Account");
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("Budget_Tracker.Models.User", b =>
+                {
+                    b.Navigation("Accounts");
                 });
 #pragma warning restore 612, 618
         }
